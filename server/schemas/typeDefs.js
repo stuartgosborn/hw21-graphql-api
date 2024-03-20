@@ -1,10 +1,19 @@
 const typeDefs = `
   type User {
     _id: ID
-    name: String
+    username: String
     email: String
     password: String
-    skills: [String]!
+    savedBooks: [Book]
+    }
+
+  type Book {
+    authors: [String]
+    description: String
+    bookId: String
+    image: String
+    link: String
+    title: String
   }
 
   type Auth {
@@ -23,7 +32,7 @@ const typeDefs = `
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
 
-    addSkill(userId: ID!, skill: String!): User
+   
     removeUser: User
     removeSkill(skill: String!): User
   }
