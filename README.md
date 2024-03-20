@@ -6,8 +6,8 @@ Refactoring a RESTful API to a GraphQL API.
 GitHub Repository:  
 https://github.com/stuartgosborn/hw21-graphql-api
 
-Render Site:   
-
+Render Site:     
+https://hw21-graphql-api.onrender.com
 
 ## User Story
 
@@ -50,3 +50,9 @@ THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 ```
+
+## Contributors
+- Stuart Osborn
+
+  [![GitHub](https://img.shields.io/badge/GitHub-My_Profile-pink?style=for-the-badge&logo=github)](https://github.com/stuartgosborn)
+    [![Linkedin](https://img.shields.io/badge/LinkedIn-My_Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stuartgosborn?trk=profile-badge)
